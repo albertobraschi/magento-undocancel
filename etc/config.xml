@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Cammino_Undocancel>
+			<version>0.1.0</version>
+		</Cammino_Undocancel>
+	</modules>
+	<global>
+
+		<blocks>
+			<adminhtml>
+				<rewrite>
+					<sales_order_view>Cammino_Undocancel_Block_Adminhtml_Sales_Order_View</sales_order_view>
+				</rewrite>
+			</adminhtml>
+		</blocks>
+
+	</global>
+
+	<admin>
+		<routers>
+			<adminhtml>
+				<args>
+					<modules>
+						<Cammino_Undocancel before="Mage_Adminhtml">Cammino_Undocancel_Adminhtml</Cammino_Undocancel>
+					</modules>
+				</args>
+			</adminhtml>
+		</routers>
+	</admin>
+
+</config>

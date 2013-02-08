@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Cammino_Undocancel>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Cammino_Undocancel>
+    </modules>
+</config>
