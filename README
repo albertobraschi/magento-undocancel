@@ -1,0 +1,7 @@
+INSTALL (for git)
+
+mkdir app/code/community/Cammino
+git submodule add git@github.com:mferracioli/magento-undocancel.git app/code/community/Cammino/Undocancel
+cp app/code/community/Cammino/Pagseguro/Cammino_Undocancel.xml app/etc/modules/
+
+TODO
